@@ -1,0 +1,20 @@
+﻿<Properties StartupItem="Droid/DemoWebinarMVVM.Droid.csproj">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DemoWebinarMVVM/View/DemoWebinarMVVMPage.xaml">
+    <Files>
+      <File FileName="DemoWebinarMVVM/Model/Employee.cs" Line="48" Column="1" />
+      <File FileName="DemoWebinarMVVM/Model/EmployeeDirectory.cs" Line="40" Column="3" />
+      <File FileName="DemoWebinarMVVM/Model/ImageClient.cs" Line="16" Column="53" />
+      <File FileName="DemoWebinarMVVM/View/DemoWebinarMVVMPage.xaml" Line="9" Column="29" />
+      <File FileName="DemoWebinarMVVM/View/DemoWebinarMVVMPage.xaml.cs" Line="11" Column="36" />
+      <File FileName="DemoWebinarMVVM/View/PositionToColorConverter.cs" Line="26" Column="26" />
+      <File FileName="DemoWebinarMVVM/obj/Debug/DemoWebinarMVVM.View.DemoWebinarMVVMPage.xaml.g.cs" Line="24" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.ItemProperties.DemoWebinarMVVM.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86_X86_google_apis" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.DemoWebinarMVVM.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.16bd548667a5dc23da09aed05b76f7a0501fae59" />
+</Properties>
