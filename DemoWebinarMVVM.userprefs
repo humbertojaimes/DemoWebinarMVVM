@@ -1,13 +1,20 @@
-﻿<Properties StartupItem="Droid/DemoWebinarMVVM.Droid.csproj">
-  <MonoDevelop.Ide.Workbench ActiveDocument="DemoWebinarMVVM/View/DemoWebinarMVVMPage.xaml">
+﻿<Properties StartupItem="iOS/DemoWebinarMVVM.iOS.csproj">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DemoWebinarMVVM/Behaviors/MailValidationBehavior.cs">
     <Files>
-      <File FileName="DemoWebinarMVVM/Model/Employee.cs" Line="48" Column="1" />
-      <File FileName="DemoWebinarMVVM/Model/EmployeeDirectory.cs" Line="40" Column="3" />
+      <File FileName="DemoWebinarMVVM/Model/Employee.cs" Line="47" Column="4" />
+      <File FileName="DemoWebinarMVVM/Model/EmployeeDirectory.cs" Line="16" Column="50" />
       <File FileName="DemoWebinarMVVM/Model/ImageClient.cs" Line="16" Column="53" />
-      <File FileName="DemoWebinarMVVM/View/DemoWebinarMVVMPage.xaml" Line="9" Column="29" />
-      <File FileName="DemoWebinarMVVM/View/DemoWebinarMVVMPage.xaml.cs" Line="11" Column="36" />
-      <File FileName="DemoWebinarMVVM/View/PositionToColorConverter.cs" Line="26" Column="26" />
-      <File FileName="DemoWebinarMVVM/obj/Debug/DemoWebinarMVVM.View.DemoWebinarMVVMPage.xaml.g.cs" Line="24" Column="1" />
+      <File FileName="DemoWebinarMVVM/View/DemoWebinarMVVMPage.xaml" Line="2" Column="115" />
+      <File FileName="DemoWebinarMVVM/View/DemoWebinarMVVMPage.xaml.cs" Line="12" Column="61" />
+      <File FileName="DemoWebinarMVVM/View/PositionToColorConverter.cs" Line="28" Column="5" />
+      <File FileName="DemoWebinarMVVM/ViewModel/DemoWebinarMVVMModel.cs" Line="41" Column="49" />
+      <File FileName="DemoWebinarMVVM/ViewModel/MyCommand.cs" Line="19" Column="3" />
+      <File FileName="DemoWebinarMVVM/obj/Debug/DemoWebinarMVVM.View.DemoWebinarMVVMPage.xaml.g.cs" Line="1" Column="1" />
+      <File FileName="DemoWebinarMVVM/View/EmployeeDetail.xaml" Line="17" Column="62" />
+      <File FileName="DemoWebinarMVVM/View/EmployeeDetail.xaml.cs" Line="19" Column="30" />
+      <File FileName="iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="DemoWebinarMVVM/App.xaml.cs" Line="10" Column="4" />
+      <File FileName="DemoWebinarMVVM/Behaviors/MailValidationBehavior.cs" Line="37" Column="28" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
@@ -16,5 +23,5 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.DemoWebinarMVVM.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.16bd548667a5dc23da09aed05b76f7a0501fae59" />
+  <MonoDevelop.Ide.ItemProperties.DemoWebinarMVVM.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" />
 </Properties>

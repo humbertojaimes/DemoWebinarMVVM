@@ -8,7 +8,7 @@ namespace DemoWebinarMVVM
 		{
 			InitializeComponent();
 
-			MainPage = new DemoWebinarMVVMPage();
+			MainPage = new NavigationPage( new DemoWebinarMVVMPage());
 		}
 
 		protected override void OnStart()

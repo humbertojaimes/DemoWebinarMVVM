@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 
 namespace DemoWebinarMVVM
 {
@@ -12,7 +13,7 @@ namespace DemoWebinarMVVM
 
 		void generateRandomDirectory()
 		{
-			Employees = new List<Employee>();
+			Employees = new ObservableCollection<Employee>();
 			Random rdn = new Random();
 			string[] names = { "Nombre1", "Nombre2", "Nombre3", "Nombre4" };
 			string[] photos =
@@ -24,7 +25,7 @@ namespace DemoWebinarMVVM
 				"http://attractmen.org/wp-content/uploads/2015/10/attractmen.org-libra-men.jpg",
 			};
 
-			for (int i = 0; i < 3; i++)
+			for (int i = 0; i < 10; i++)
 			{
 				var name = names[rdn.Next(0, 3)];
 				Employees.Add(new Employee(
@@ -37,7 +38,7 @@ namespace DemoWebinarMVVM
 
 		}
 
-		public List<Employee> Employees
+		public ObservableCollection<Employee> Employees
 		{
 			get;
 			set;

@@ -32,6 +32,9 @@
   <ItemGroup>
     <EmbeddedResource Include="App.xaml" />
     <EmbeddedResource Include="View\DemoWebinarMVVMPage.xaml" />
+    <EmbeddedResource Include="View\EmployeeDetail.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -45,6 +48,12 @@
     <Compile Include="Model\EmployeeDirectory.cs" />
     <Compile Include="Model\ImageClient.cs" />
     <Compile Include="View\PositionToColorConverter.cs" />
+    <Compile Include="ViewModel\DemoWebinarMVVMModel.cs" />
+    <Compile Include="ViewModel\MyCommand.cs" />
+    <Compile Include="View\EmployeeDetail.xaml.cs">
+      <DependentUpon>EmployeeDetail.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Behaviors\MailValidationBehavior.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">
@@ -72,6 +81,8 @@
   <ItemGroup>
     <Folder Include="Model\" />
     <Folder Include="View\" />
+    <Folder Include="ViewModel\" />
+    <Folder Include="Behaviors\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.2.0.1.6495\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.0.1.6495\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" />
